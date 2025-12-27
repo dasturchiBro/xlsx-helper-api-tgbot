@@ -159,7 +159,10 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
   <img src="images/main-screen.png" width="260" style="margin-right: 16px;">
   <img src="images/classes.png" width="260" style="margin-right: 16px;">
   <img src="images/templates.png" width="260" style="margin-right: 16px;">
-  <img src="images/add-template.png" width="260">
+  <img src="images/add-template.png" width="250">
+  <img src="images/planning_1.jpg" width="250">
+  <img src="images/planning_2.jpg" width="250">
+  <img src="images/planning_3.jpg" width="250">
 </p>
 ---
 
