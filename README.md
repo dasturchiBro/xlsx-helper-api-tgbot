@@ -76,6 +76,27 @@ This Telegram bot and REST API are built specifically to help the teachers at **
 
 ---
 
+## 🗄️ Database (PostgreSQL)
+
+This project uses PostgreSQL.
+
+### Schema
+The database structure is provided in:
+
+migrations/schema.sql
+
+No real student data is included.
+
+### Setup
+1. Create a PostgreSQL database
+2. Configure environment variables (see `.env.example`)
+3. Apply schema:
+
+```bash
+psql -U postgres -d xlsx_bot -f migrations/schema.sql
+```
+---
+
 ## ⚙️ Configuration
 
 ### XLSX API (`xlsx-api`)
