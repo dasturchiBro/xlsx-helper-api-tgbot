@@ -134,13 +134,12 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 📸 Screenshots / Demo
 
-<img src="images/main-screen.png" width="300">
-<img src="images/classes.png" width="300">
-<img src="images/templates.png" width="300">
-<img src="images/add-template.png" width="300">
-
-
-
+<p align="center">
+  <img src="images/main-screen.png" width="260" style="margin-right: 16px;">
+  <img src="images/classes.png" width="260" style="margin-right: 16px;">
+  <img src="images/templates.png" width="260" style="margin-right: 16px;">
+  <img src="images/add-template.png" width="260">
+</p>
 ---
 
 # Stay hard. Keep building.
