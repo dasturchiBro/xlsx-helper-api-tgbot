@@ -89,7 +89,7 @@ No real student data is included.
 
 ### Setup
 1. Create a PostgreSQL database
-2. Configure environment variables (see `.env.example`)
+2. Configure environment variables
 3. Apply schema:
 
 ```bash
