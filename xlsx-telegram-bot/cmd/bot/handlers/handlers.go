@@ -12,7 +12,6 @@ import (
 	"bytes"
 	"io"
 
-	"log"
 )
 
 func SendPhoneNumberButton(chatID int64, bot *tgbotapi.BotAPI) error {
@@ -38,7 +37,7 @@ func GoToMainMenu(chatID int64, bot *tgbotapi.BotAPI) error {
 	mainMenuKeyboard := tgbotapi.NewReplyKeyboard(
 		tgbotapi.NewKeyboardButtonRow(tgbotapi.NewKeyboardButton("📚 Classes")),
 		tgbotapi.NewKeyboardButtonRow(tgbotapi.NewKeyboardButton("📐 Templates")),
-		tgbotapi.NewKeyboardButtonRow(tgbotapi.NewKeyboardButton("❓ Help")),
+		// tgbotapi.NewKeyboardButtonRow(tgbotapi.NewKeyboardButton("❓ Help")),
 		tgbotapi.NewKeyboardButtonRow(tgbotapi.NewKeyboardButton("🏡 Main Menu")),
 	)
 	msg.ReplyMarkup = mainMenuKeyboard
@@ -462,6 +461,5 @@ func UseTemplateGetData(chatID int64, classID int, templateID int) ([]byte, erro
 	if err != nil {
 		return nil, err
 	}
-	log.Print(string(data))
 	return data, nil
 }
