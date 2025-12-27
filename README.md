@@ -88,7 +88,7 @@ This Telegram bot and REST API are built specifically to help the teachers at **
 
 | Variable          | Description                         | Example                        |
 |-------------------|-----------------------------------|-------------------------------|
-| TELEGRAM_BOT_TOKEN | Token from BotFather for your bot | `123456789:ABCdefGHIjklMnop`  |
+| TELEGRAM_BOT_API | Token from BotFather for your bot | `123456789:ABCdefGHIjklMnop`  |
 
 Use `.env` files or environment variables to set these securely.
 
@@ -134,13 +134,11 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 📸 Screenshots / Demo
 
-![Bot Demo](images/main-screen.png)
+<img src="images/main-screen.png" width="300">
+<img src="images/classes.png" width="300">
+<img src="images/templates.png" width="300">
+<img src="images/add-template.png" width="300">
 
-![Bot Classes](images/classes.png)
-
-![Bot Templates](images/templates.png)
-
-![Bot Add Template](images/add-template.png)
 
 
 ---
